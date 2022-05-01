@@ -402,12 +402,20 @@ body._lock {
           animation: pulse 1s linear infinite alternate running 0s none;
 }
 @-webkit-keyframes pulse {
+  0% {
+               color: #ffffff;
+               font-size: rem(16);
+            }
   100% {
     color: #e05757;
     font-size: 1.0625rem;
   }
 }
 @keyframes pulse {
+  0% {
+               color: #ffffff;
+               font-size: rem(16);
+            }
   100% {
     color: #e05757;
     font-size: 1.0625rem;
