@@ -193,7 +193,7 @@ body._lock {
           flex-direction: column;
   overflow: hidden;
   position: relative;
-  background: url(/img/01.png);
+  background: url(../img/01.png);
   -webkit-animation: bgAnim 100s linear infinite running 0s none;
           animation: bgAnim 100s linear infinite running 0s none;
 }
